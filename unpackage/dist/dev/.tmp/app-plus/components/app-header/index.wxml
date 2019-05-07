@@ -1,0 +1,1 @@
+<view bind:__l="__l"><view class="appHeader__wrap bg-gradual-blue"><view class="appHeader__paddingTop"></view><view class="appHeader__container"><block wx:if="{{type==='search'}}"><view class="appHeader__container-input"><text class="cuIcon-search appHeader__container-search"></text>请输入你需要搜索的商品名称</view></block></view></view><view class="appHeader__fill"></view></view>

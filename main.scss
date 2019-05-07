@@ -1,0 +1,9 @@
+@import './uni.scss';
+@import './colorui/main.css';
+@import './colorui/icon.css';
+// @import './colorui/animation.css';
+
+/* 公用样式 */
+.uni-body {
+  background-color: $uni-bg-color-grey;
+}
