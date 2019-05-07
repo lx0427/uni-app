@@ -102,7 +102,7 @@
 /******/
 /******/
 /******/ 		// mini-css-extract-plugin CSS loading
-/******/ 		var cssChunks = {"components/app-header/index":1,"components/goods-item/index":1,"components/title-hint/index":1,"node-modules/mescroll-uni/mescroll-uni":1};
+/******/ 		var cssChunks = {"components/app-header/index":1,"components/goods-item/index":1,"components/title-hint/index":1};
 /******/ 		if(installedCssChunks[chunkId]) promises.push(installedCssChunks[chunkId]);
 /******/ 		else if(installedCssChunks[chunkId] !== 0 && cssChunks[chunkId]) {
 /******/ 			promises.push(installedCssChunks[chunkId] = new Promise(function(resolve, reject) {

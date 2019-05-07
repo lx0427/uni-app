@@ -10,7 +10,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@dcloudio/uni-ui": "0.0.8",
     "mescroll-uni": "^1.0.1"
   }
 }
