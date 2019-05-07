@@ -1,20 +1,17 @@
 <template>
 	<view>
 		<!-- 状态栏 -->
-		<view class="status" :style="{ position: headerPosition }"></view>
-		<view class="header" :style="{ position: headerPosition }">
-			<view class="addr">
+		<app-header>
+			<block slot="left">
 				<view class="icon location"></view>
 				{{ city }}
-			</view>
-			<view class="input-box">
-				<input placeholder="默认关键字" placeholder-style="color:#c0c0c0;" @tap="toSearch()" />
+			</block>
+			<block slot="center">
+				<input class="category__header-search" placeholder="默认关键字" placeholder-style="color:#c0c0c0;" @tap="toSearch()" />
 				<view class="icon search"></view>
-			</view>
-			<view class="icon-btn"><view class="icon tongzhi" @tap="toMsg"></view></view>
-		</view>
-		<!-- 占位 -->
-		<view class="place"></view>
+			</block>
+			<block slot="right"><view class="icon tongzhi" @tap="toMsg"></view></block>
+		</app-header>
 		<view class="category-list">
 			<!-- 左侧分类导航 -->
 			<scroll-view scroll-y="true" class="left">
