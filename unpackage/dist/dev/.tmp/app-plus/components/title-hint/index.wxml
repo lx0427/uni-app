@@ -1,1 +1,0 @@
-<view class="titleHint__wrap cu-bar bg-white" bind:__l="__l"><view class="action"><text class="cuIcon-title text-blue"></text><slot></slot></view></view>

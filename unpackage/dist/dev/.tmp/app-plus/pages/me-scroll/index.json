@@ -1,9 +1,0 @@
-{
-  "navigationBarTitleText": "me-scroll",
-  "enablePullDownRefresh": false,
-  "onReachBottomDistance": 200,
-  "bounce": "none",
-  "usingComponents": {
-    "mescroll-uni": "/node-modules/mescroll-uni/mescroll-uni"
-  }
-}

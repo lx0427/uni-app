@@ -1,9 +1,0 @@
-{
-  "navigationBarTitleText": "",
-  "titleNView": false,
-  "usingComponents": {
-    "app-header": "/components/app-header/index",
-    "title-hint": "/components/title-hint/index",
-    "goods-item": "/components/goods-item/index"
-  }
-}
