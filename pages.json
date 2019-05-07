@@ -10,6 +10,15 @@
 			}
 		},
 		{
+			"path": "pages/category/index",
+			"style": {
+				"navigationBarTitleText": "",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
 			"path": "pages/me-scroll/index",
 			"style": {
 				"navigationBarTitleText": "me-scroll",
@@ -39,6 +48,11 @@
 				"iconPath": "static/logo.png",
 				"selectedIconPath": "static/logo.png",
 				"text": "首页"
+			}, {
+				"pagePath": "pages/category/index",
+				"iconPath": "static/logo.png",
+				"selectedIconPath": "static/logo.png",
+				"text": "分类"
 			},
 			{
 				"pagePath": "pages/me-scroll/index",

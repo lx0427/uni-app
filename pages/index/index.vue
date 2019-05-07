@@ -1,5 +1,5 @@
 <template>
-	<view>
+	<view class="home__page">
 		<app-header type="search"></app-header>
 		<!-- #ifndef MP-ALIPAY -->
 		<swiper
@@ -47,12 +47,10 @@
 </template>
 
 <script>
-import appHeader from '@/components/app-header/index.vue';
 import titleHint from '@/components/title-hint/index.vue';
 import goodsItem from '@/components/goods-item/index.vue';
 export default {
 	components: {
-		appHeader,
 		titleHint,
 		goodsItem
 	},
@@ -108,40 +106,40 @@ export default {
 	onLoad() {},
 	//监听页面显示
 	onShow() {
-		console.log('onShow', 'into - 2');
+		// console.log('onShow', 'into - 2');
 	},
 	//监听页面初次渲染完成
 	onReady() {
-		console.log('onReady', 'into - 3');
+		// console.log('onReady', 'into - 3');
 	},
 	//监听页面隐藏
 	onHide() {
-		console.log('onHide', '离开当前页面');
+		// console.log('onHide', '离开当前页面');
 	},
 	//监听页面卸载
 	onUnload() {
-		console.log('onUnload');
+		// console.log('onUnload');
 	},
 	//监听用户下拉动作
 	onPullDownRefresh() {
-		console.log('onPullDownRefresh', 'onPullDownRefresh');
+		// console.log('onPullDownRefresh', 'onPullDownRefresh');
 		this.getlist();
 	},
 	//监听页面滚动
 	onPageScroll() {
-		console.log('onPageScroll');
+		// console.log('onPageScroll');
 	},
 	//页面上拉触底事件的处理函数
 	onReachBottom() {
-		console.log('onReachBottom');
+		// console.log('onReachBottom');
 	},
 	//用户点击右上角分享 微信小程序
 	onShareAppMessage() {
-		console.log('onShareAppMessage');
+		// console.log('onShareAppMessage');
 	},
 	//当前是 tab 页时，点击 tab 时触发。
 	onTabItemTap() {
-		console.log('onTabItemTap');
+		// console.log('onTabItemTap');
 	}
 };
 </script>

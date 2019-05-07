@@ -4,6 +4,9 @@ image {
 }
 
 .home {
+	&__page {
+		background-color: var(--ghostWhite);
+	}
 	&__swiper {
 		background-color: #fff;
 	}
@@ -29,7 +32,7 @@ image {
 			&_image {
 				flex: 1;
 
-				&+& {
+				& + & {
 					border-top: 1upx solid #fff;
 				}
 			}
@@ -57,7 +60,7 @@ image {
 		}
 	}
 
-	&__preferred{
+	&__preferred {
 		width: 100%;
 		background-color: #fff;
 	}
